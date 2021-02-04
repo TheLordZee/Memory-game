@@ -1,0 +1,72 @@
+
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+#game .smol{
+  width: 1%;
+  margin-right: 15%;
+  transition: all 1s;
+}
+
+#game .norm{
+  width: 15%;
+  transition: all 1s;
+}
+
+.head{
+  font-size: 6rem;
+  color: rgb(41, 98, 255);
+  background-color: rgb(255, 205, 41)
+}
+
+.btn{
+  font-size: 5vh;
+  color: rgb(41, 98, 255);
+  background-color: rgb(255, 205, 41)
+}
+
+#start-game{
+  display: flex;
+  position: absolute;
+  background-color: rgba(49, 49, 49, 0.75);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: space-around;
+}
+
+#end-game{
+  display: none;
+  position: absolute;
+  background-color: rgba(1, 25, 75, 0.75);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: space-around;
+}
+
+.scoreboard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3rem;
+  color: rgb(41, 98, 255);
+  background-color: rgb(255, 205, 41)
+}
+
+#new-best{
+  display: none;
+}
